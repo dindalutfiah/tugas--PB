@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELAMAT BERBELANJA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="14dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="APLIKASI KASIR SEDERHANA"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextCustomerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Pelanggan"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Barang"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <CheckBox
+        android:id="@+id/cbEsTeh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es Teh - Rp. 5.000 (biaya admin Rp. 2.000)"
+        android:layout_marginBottom="6dp"/>
+
+    <CheckBox
+        android:id="@+id/cbEsJeruk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es Jeruk - Rp. 6.000 (biaya admin Rp. 2.500)"
+        android:layout_marginBottom="6dp"/>
+
+    <CheckBox
+        android:id="@+id/cbAyamGeprek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayam Geprek - Rp. 20.000 (biaya admin Rp. 3.000)"
+        android:layout_marginBottom="6dp"/>
+
+    <CheckBox
+        android:id="@+id/cbAyamPenyet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayam Penyet - Rp. 20.000 (biaya admin Rp. 3.500)"
+        android:layout_marginBottom="6dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxMembership"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Membership (Diskon 5%)"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxNonMembership"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Non Member"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnProcess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proses"/>
+
+    <TextView
+        android:id="@+id/tvReceipt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text=""
+        android:textSize="16sp"/>
+
+</LinearLayout>
